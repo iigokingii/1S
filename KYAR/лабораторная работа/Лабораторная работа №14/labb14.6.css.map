@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAYA,CAAC;EACA,WAAW,EAbE,GAAG;;AAcjB,EAAE;EACD,KAAK,EAdO,UAAU;EAetB,WAAW,EAVE,KAAK;EAWlB,UAAU,EAPE,MAAM;EAQlB,SAAS,EAPC,KAAK",
+"sources": ["lab14.6.sass"],
+"names": [],
+"file": "labb14.6.css"
+}

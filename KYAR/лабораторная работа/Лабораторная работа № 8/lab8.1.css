@@ -1,0 +1,167 @@
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.style1 a:link{
+	color: red;
+}
+.style2 a:visited{
+	color: #8B0000;
+}
+.style3 a:hover{
+	color: green;
+}
+
+.style4 a:active{
+	color: rgb(184, 134, 11);
+}
+.nav li { 
+	display: inline;
+}
+.nav a{
+	display: inline-block;
+	border: 1px solid black;
+	background-color: yellow;
+	text-decoration: none;
+	color: blue;
+	width: 100px;
+	height:25px;
+	margin: -3px;
+}
+
+.s1{
+	transition: 1s;
+	margin-bottom: 100px;
+}
+.s1:hover{
+	transform: scale(0.5);
+}
+.s2{
+	transition:1s;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.s2:hover{
+	transform: rotate(45deg);
+
+}
+.s3{
+	transition: 1s;
+	perspective-origin:20px;
+	margin-right: 60px;
+	margin-bottom: 100px;
+}
+.s3:hover{
+	transform:translate(50px);
+}
+.s4{
+	transition: 1s;
+	margin-top: 100PX;
+	margin-left: 40px;
+	margin-bottom: 100px;
+}
+.s4:hover{
+	transform: skew(-20deg);
+}
+.s5 {
+    perspective: 500px;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+.s6 {
+    transform: rotatex(30deg);
+    margin-bottom: 50px;
+}
+.s7{
+	transform: rotateY(30deg);
+	transform-origin: left;
+	margin-bottom: 50px;
+}
+.s8 {
+    transform: rotatex(30deg);
+    margin-bottom: 50px;
+}
+.s9{
+	transform: rotatey(-40deg);
+	transform-origin:right;
+	margin-bottom: 50px;
+}
+.s10{
+	width:312px;
+	height:312px;
+	color:red;
+	transition: 20s linear;
+}
+.s10:hover{
+	color: black;
+}
+.style{
+	width:100%;
+	height:450px;
+	margin-top: 40px;
+}
+@keyframes anime-1{
+	0%{left:0px;top: 0px;}
+	100%{left:250px;top: 0px}
+}
+.s11{
+	position: relative;
+	animation: anime-1 2s linear infinite alternate; 
+}
+@keyframes anime-2{
+	0%{left:0px;top: 0px;}
+	100%{left:0px;top: 250px}
+}
+.s12{
+	position: relative;
+	animation: anime-2 4s linear infinite alternate; 
+}
+@keyframes anime-3{
+	0%{left:0px;top: 0px;}
+	25%{left:80px;top:100px}
+	50%{left:200px;top:130px}
+	75%{left: 150px;top:200px}
+	100%{left:0px;top:0px;}
+}
+.s13{
+	position: relative;
+	animation: anime-3 4s linear infinite alternate; 
+}
+@keyframes anime-4{
+	0%{left:0px;top: 0px;}
+	25%{left:100px;top: 0px}
+	50%{left:100px;top: 100px}
+	75%{left: 0px;top: 100px}
+	100%{left:0px;top:0px;}
+}
+.s14{
+	position: relative;
+	animation: anime-4 4s linear infinite alternate; 
+}
+
+@keyframes fade{
+	0%{background-image:url(images/9.png);}
+	25%{background-image:url(images/10.png);}
+	50%{background-image: url(images/11.png);}
+	75%{background-image: url(images/12.png);}
+	100%{background-image: url(images/13.png);}
+	0%{background-image:url(images/9.png);}
+}
+
+.s16{
+	animation: fade 5s linear infinite alternate;
+	animation-name: fade;
+	animation-duration: 5s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	border: 2px solid black;
+	width: 250px;
+	height: 170px;
+	margin-left: 600px;
+}

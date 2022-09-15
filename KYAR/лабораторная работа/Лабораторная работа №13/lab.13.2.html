@@ -1,0 +1,40 @@
+<html>
+<head>
+   <title>lab13.2</title>
+</head>
+<body>
+   <h1>Agent007</h1>
+   <div>
+      <b>Name:</b> <span id="name"></span><br />
+      <b>Age:</b> <span id="age"></span><br />
+      <b>Residence:</b> <span id="res"></span><br>
+      <b>Role:</b> <span id="role"></span>
+   </div>
+
+   <script>
+      txt = "<note>";
+      txt = txt + "<name>Manny Ortega</name>";
+      txt = txt + "<age>27</age>";
+      txt = txt + "<res>Washington</res>";
+      txt = txt + "<role>Coordinator</role>";
+      txt = txt + "</note>";
+
+      if (window.DOMParser)
+      {
+         parser = new DOMParser();
+         xmlDoc = parser.parseFromString(txt,"text/xml");
+      }
+      else // Internet Explorer
+      {
+         xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+         xmlDoc.async = false;
+         xmlDoc.loadXML(txt);
+      }
+
+      document.getElementById("name").innerHTML = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+      document.getElementById("age").innerHTML = xmlDoc.getElementsByTagName("age")[0].childNodes[0].nodeValue;
+      document.getElementById("res").innerHTML = xmlDoc.getElementsByTagName("res")[0].childNodes[0].nodeValue;
+      document.getElementById("role").innerHTML = xmlDoc.getElementsByTagName("role")[0].childNodes[0].nodeValue;
+   </script>
+</body>
+</html>

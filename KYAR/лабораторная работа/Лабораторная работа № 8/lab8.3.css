@@ -1,0 +1,35 @@
+ul	{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li a{
+	text-decoration:none;
+	color: black;
+	display: block;
+	width: 200px;
+	height: 25px;
+	background-color: green;
+	border: 1px solid black;
+}
+.menu ul>li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 100px;
+	height: 35px;
+	background-color:orange;
+	border:1px dashed black;
+}
+.menu ul li {	
+	position: relative;
+
+}
+.menu li .style1{
+	display: none;
+
+}
+.menu li:hover .style1{
+	display: block;
+	position: absolute;
+} 

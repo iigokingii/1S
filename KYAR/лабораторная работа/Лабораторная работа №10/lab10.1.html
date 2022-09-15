@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>lab10.1</title>
+	<link rel="stylesheet" type="text/css" href="lab10.1.css">
+	<link href="10.1.3.css" rel="stylesheet" media="(max-width: 560px)">
+	<style>
+		@import url(10.1.2.css)(min-width:560px) and (max-width:768px);
+	</style>
+</head>
+<body>
+	<div class="container1">
+		<div class="div1">
+			Flex верстка
+		</div>
+		<div class="div2">
+			Flexbox-верстка — разметка макетов веб-страниц, которая позволяет автоматически настраивать ширину элементов, находящихся внутри flex-контейнера. Для применения данного способа разметки следует учитывать разделение применяемых свойств на свойства flex-контейнера и свойства flex-элемента.
+		</div>
+		<div class="div2">
+			С помощью display: flex; осуществляется преобразование HTML-элемента в flex-контейнер, а элементы находящийся внутри него в flex-лементы. По умолчанию flex-элементы помещаются друг за другом в одной строке. Свойство flex-flow позволяет выбрать направление отображения элементов в контейнере, а также указать их перенос на следующую строку. Первое значение определяет направление, а второе перенос на следующую строку.
+		</div>
+		<div class="div2">
+			Свойство flex-flow является сокращенной запись и содержит значения 
+			свойств flex-direction и flex-wrap. Flex-элементы могут размещаться в строке (значение row) или в колонке (значение column). Перенос элементов осуществляется с помощью значения wrap.
+		</div>
+		<div class="div2">
+			Свойство justify-content определяет способ выключки flex-элементов в 
+			строке. Для выравнивания левому краю используется значения flex-start, а по правому краю — flex-end. Для равномерного распределения элементов создавая пространство между ними необходимо значение space-between, а space-around добавляет поля по левому и правому краям крайних элементов.
+		</div>
+		<div class="div2">
+			Свойство align-items определяет, как flex-элементы различной высоты будут выровнены по высоте строки в flex-контейнере. Для выравнивания верхнему краю используется значения flex-start, а по нижнему краю — flexend. Значение stretch позволяет растянуть каждый элемент по высоте контейнера, делая их высоты одинаковыми. Свойство align-contentопределяет как будут размещены flex-элементы, занимающие несколько строк.
+		</div>
+	</div>
+		<figure class="container2">
+			<div class="fig">
+				<img src="../Лабораторная работа № 6/images/belka.png">
+				<figcaption>белка</figcaption>
+			</div>
+			<div class="fig">
+				<img src="../Лабораторная работа № 6/images/koala.png">
+				<figcaption>коала</figcaption>
+			</div>
+			<div class="fig">
+				<img src="../Лабораторная работа № 6/images/kot.png">
+				<figcaption>кот</figcaption>
+			</div>
+			<div class="fig">
+				<img src="../Лабораторная работа № 6/images/cherepaha.png">
+				<figcaption>черепаха</figcaption>
+			</div>
+		</figure>
+	</div>
+</body>
+</html>

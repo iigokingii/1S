@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>lab13.3</title>
+</head>
+<body>
+   <h1>Alert message</h1>
+   <div>
+      <b>From:</b> <span id="to"></span><br />
+      <b>To:</b> <span id="from"></span><br />
+      <b>Message text:</b> <span id="message"></span>
+   </div>
+
+   <script>
+      txt = "<note>";
+      txt = txt + "<to>Manny Ortega</to>";
+      txt = txt + "<from>Washington</from>";
+      txt = txt + "<heading>Message about the CIO attack</heading>";
+      txt = txt + "<body>There was an attack on our checkpoint\n" +
+              "Location: [53.890998519100705,27.550044141613753]</body>";
+      txt = txt + "</note>";
+
+      if (window.DOMParser)
+      {
+         parser = new DOMParser();
+         xmlDoc = parser.parseFromString(txt,"text/xml");
+      }
+      else // Internet Explorer
+      {
+         xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+         xmlDoc.async = false;
+         xmlDoc.loadXML(txt);
+      }
+
+      document.getElementById("to").innerHTML = xmlDoc.getElementsByTagName("to")[0].childNodes[0].nodeValue;
+      document.getElementById("from").innerHTML = xmlDoc.getElementsByTagName("from")[0].childNodes[0].nodeValue;
+      document.getElementById("message").innerHTML = xmlDoc.getElementsByTagName("body")[0].childNodes[0].nodeValue;
+   </script>
+</body>
+</html>

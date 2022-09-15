@@ -1,0 +1,40 @@
+p{
+      line-height:1.1 ;
+    }
+    .p1{
+      color: blueviolet;
+      font-family: arial;
+      fonst-style: italic;
+      font-size:1.2em;
+    }
+    .p2{
+      color: royalblue;
+      font-size: 1.2em;
+      font-family: Verdana;
+      font-style: italic;
+    }
+    .p3{
+      color: darkblue;
+      font-size: 1.2em;
+      font-family: Helvetica;
+      font-style: italic;
+    }
+    h1{
+        color: green;
+        font-family: comic sans MS;
+        text-align: center;
+        font-style: italic;
+    }
+    h2{
+        color: limegreen;
+        font-family: comic sans MS;
+        text-align: center;
+    }
+    table,td{
+      table-layout: fixed;
+      border: 2px solid;
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center;
+
+    }

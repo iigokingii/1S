@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="12(2).xsl"?>
+<attestation>
+	<student>
+		<name>Кирилл</name>
+		<mark>9</mark>
+	</student>
+	<student>
+		<name>женя</name>
+		<mark>2</mark>
+	</student>
+	<student>
+		<name>Вадим</name>
+		<mark>8</mark>
+	</student>
+	<student>
+		<name>Илья</name>
+		<mark>7</mark>
+	</student>
+	<student>
+		<name>Вова</name>
+		<mark>3</mark>
+	</student>
+	<student>
+		<name>Адам</name>
+		<mark>8</mark>
+	</student>
+</attestation>

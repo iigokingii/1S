@@ -1,0 +1,32 @@
+.container{
+	display: grid;
+	height: 600px;
+	grid-gap: 1em;
+	grid-template-columns:10% 65% 22%;
+	font-size: 20px;
+}
+.box0{
+	background-color: limegreen;
+	grid-row: 1/4;
+}
+.box1{
+	background-color: limegreen;
+	grid-column: 2/4;
+	text-align: center;
+}
+.box2{
+	background-color: limegreen;
+	grid-row: 2/4;
+}
+.box3{
+	background-color: limegreen;
+	grid-row: 2/4;
+}
+.box4{
+	background-color: limegreen;
+	grid-column: 1/4;
+}
+a{
+	text-decoration: none;
+	color: black;
+}

@@ -1,0 +1,28 @@
+note{
+    width: 100%;
+    background-color: floralwhite;
+    font-size: 20px;
+    justify-content: center;
+
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-style:oblique;
+    font-size: 30px;
+}
+animal{
+    display: flex;
+    flex-flow:row wrap;
+    margin: 10px 30px 15px 40px;
+}
+name{
+    margin:10px 0px 10px 30px;
+    color:seagreen;
+}
+about{
+    font-family:cursive;
+    color:royalblue;
+}
+

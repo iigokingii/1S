@@ -1,0 +1,39 @@
+.container1 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-between;
+	text-align: center;
+	margin:10px 50px 0px 50px ;
+}
+.div1{
+	flex: 1 1 100%;
+	border: 2px solid black;
+	margin: 2px;
+}
+.div2{
+	flex: 0 2 270px;
+	border: 2px solid black;
+	margin: 1px;
+}
+.container2 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-between;
+	text-align: center;
+	margin:10px 50px 0px 50px ;
+}
+.fig{
+	flex: 1 1 100px;
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+		.container2{
+			flex-flow: row nowrap;
+			justify-content:flex-end;
+		}
+		figcaption {
+			font-size: 21px;
+			color: green;
+		}
+		
+}
+
