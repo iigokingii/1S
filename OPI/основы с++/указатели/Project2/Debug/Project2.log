@@ -1,0 +1,32 @@
+﻿Сборка начата 15.12.2021 2:46:29.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\OneDrive\Рабочий стол\основы с++\Project2\Project2\Project2.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Project2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+     1>InitializeBuildStatus:
+         Создание "Debug\Указатели14.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>C:\Users\User\OneDrive\Рабочий стол\основы с++\Project2\Project2\Source.cpp(3,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\OneDrive\Рабочий стол\основы с++\Project2\Debug\Указатели14.exe" /INCREMENTAL /ILK:"Debug\Указатели14.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\OneDrive\Рабочий стол\основы с++\Project2\Debug\Указатели14.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\OneDrive\Рабочий стол\основы с++\Project2\Debug\Указатели14.lib" /MACHINE:X86 Debug\Source.obj
+         Project2.vcxproj -> C:\Users\User\OneDrive\Рабочий стол\основы с++\Project2\Debug\Указатели14.exe
+       FinalizeBuildStatus:
+         Файл "Debug\Указатели14.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Указатели14.tlog\Указатели14.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\OneDrive\Рабочий стол\основы с++\Project2\Project2\Project2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\User\OneDrive\Рабочий стол\основы с++\Project2\Project2\Project2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект PrepareForBuild) -> 
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Project2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+
+
+       "C:\Users\User\OneDrive\Рабочий стол\основы с++\Project2\Project2\Project2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\User\OneDrive\Рабочий стол\основы с++\Project2\Project2\Source.cpp(3,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:02.08

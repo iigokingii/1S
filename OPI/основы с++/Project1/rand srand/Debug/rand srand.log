@@ -1,0 +1,19 @@
+﻿Сборка начата 10.03.2022 3:26:13.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\OneDrive\Рабочий стол\1с,1к\ОПИ\основы с++\Project1\rand srand\rand srand.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\rand srand.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         rand srand.vcxproj -> C:\Users\User\OneDrive\Рабочий стол\1с,1к\ОПИ\основы с++\Project1\Debug\rand srand.exe
+       FinalizeBuildStatus:
+         Файл "Debug\rand srand.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\rand srand.tlog\rand srand.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\OneDrive\Рабочий стол\1с,1к\ОПИ\основы с++\Project1\rand srand\rand srand.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:00.04

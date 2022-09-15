@@ -1,0 +1,23 @@
+﻿Сборка начата 12.10.2021 13:54:13.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\OneDrive\Рабочий стол\основы с++\Project1\3 for\3 for.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\3.for.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\OneDrive\Рабочий стол\основы с++\Project1\Debug\3.for.exe" /INCREMENTAL /ILK:"Debug\3.for.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\OneDrive\Рабочий стол\основы с++\Project1\Debug\3.for.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\OneDrive\Рабочий стол\основы с++\Project1\Debug\3.for.lib" /MACHINE:X86 Debug\Source.obj
+     1>MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+     1>C:\Users\User\OneDrive\Рабочий стол\основы с++\Project1\Debug\3.for.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+     1>Сборка проекта "C:\Users\User\OneDrive\Рабочий стол\основы с++\Project1\3 for\3 for.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "C:\Users\User\OneDrive\Рабочий стол\основы с++\Project1\3 for\3 for.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ _main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+         C:\Users\User\OneDrive\Рабочий стол\основы с++\Project1\Debug\3.for.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
+
+    Предупреждений: 0
+    Ошибок: 2
+
+Прошло времени 00:00:00.16
